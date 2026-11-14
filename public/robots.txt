@@ -1,0 +1,62 @@
+# robots.txt for HYPEBOOST Influencer Marketing Agency
+# Primary Domain: https://hypeboost.in
+# Optimized for Web & AI Answer Engines (AEO)
+
+# General Web Crawlers
+User-agent: *
+Allow: /
+
+# Google Search & Google AI (AI Overviews, Gemini)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# OpenAI / ChatGPT / SearchGPT
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Perplexity AI Search
+User-agent: PerplexityBot
+Allow: /
+
+# Anthropic Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Microsoft Bing & Copilot
+User-agent: Bingbot
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta AI
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Common Crawl & Other Foundation AI Datasets
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# Sitemaps & AI Context Documentation
+Sitemap: https://hypeboost.in/sitemap.xml
+# LLMs context guide (AEO)
+# https://hypeboost.in/llms.txt
