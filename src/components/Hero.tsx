@@ -129,6 +129,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenContact, onSelectRole }) => {
                       src={creator.avatarUrl}
                       alt={creator.name}
                       referrerPolicy="no-referrer"
+                      decoding="async"
                       className="w-full h-full object-cover grayscale contrast-110 hover:grayscale-0 transition-all duration-200"
                     />
                     <div className="absolute top-1 right-1 bg-white/95 border border-[#141414] text-[9px] font-bold px-1.5 py-0.5 rounded shadow-[1px_1px_0px_#141414]">
